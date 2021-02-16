@@ -1,0 +1,36 @@
+body{width:100%; margin: 0 auto;}
+.content{width:100%; margin: 0 auto; background-color:blue;}
+.men{float:left; width:100%; background-color:#800000; text-align:center; color:#00B7EB; font-size:22px;}
+.men strong{font-size:22px}
+.ob{color:white; border-style:solid; border-color:green; margin:5px; border-width:5px;}
+.ob:hover{background-color:green; color:red;}
+.fixed{position:fixed; right:0; bottom:0;}
+.kli{text-align:left; color:white; background-color:blue; font-size:20px; float:left;}
+.kli strong.geo{font-size:33px;}
+.kli strong {font-size:30px}
+.geo{color:white;}
+.geo:hover{background-color:green; color:red;}
+.coo{background-color:white;
+	color:#800000;
+text-align:center;
+font-size:35px;}
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+audio{position:fixed; left:0; top:0;}
+.resp {width: 100%; max-width: 400px; height: auto;}
+@media screen and (max-width:780px){audio{width:150px;}}
+iframe{frameborder:0}

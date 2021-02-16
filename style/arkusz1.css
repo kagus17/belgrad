@@ -1,0 +1,11 @@
+body{width:100%; margin: 0 auto;}
+.content{width:100%; margin: 0 auto; background-color:blue;}
+.men{float:left; width:100%; background-color:#800000; text-align:center; color:#00B7EB; font-size:66px;}
+.map{text-align:center; float:left; width:100%; background-color:blue;}
+.fixed{position:fixed; right:0; bottom:0;}
+.kli{width:100%; text-align:center; color:#800000; background-color:white; font-size:20px; float:left;}
+.kli strong.geo{font-size:33px;}
+.kli strong {font-size:30px}
+.geo:hover{background-color:green; color:red;}
+.resp {width: 100%; max-width: 400px; height: auto;}
+iframe{width:75%; height:500px; frameborder:0;}
